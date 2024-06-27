@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCond %{ENV:HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteRule ^billetterie$ billetterie.php [NC,L]
+RewriteRule ^devenir-benevole$ benevole.php [NC,L]
+RewriteRule ^presse$ dossier-presse.php [NC,L]
+RewriteRule ^mentions$ mentions-legales.php [NC,L]
+RewriteRule ^partenaires$ partenaires.php [NC,L]
+RewriteRule ^precedentes-editions$ precedente-editions.php [NC,L] 
+RewriteRule ^programme$ programme.php [NC,L] 
+RewriteRule ^contact$ contact.php [NC,L] 
+RewriteRule ^videos$ video.php [NC,L] 
+
