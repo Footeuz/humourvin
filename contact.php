@@ -13,7 +13,7 @@ include('./_header.php');
                     <br/><br/>
                 </div>
 
-                <div class="col-lg-10 col-lg-offset-1 text-center">
+                <!-- <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2 class="wow fadeIn cursive text-primary">Pour le tremplin jeunes talents</h2>
                     <hr class="primary">
                     
@@ -22,7 +22,7 @@ include('./_header.php');
                     <br/><br/>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
     
 <?php
