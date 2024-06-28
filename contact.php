@@ -7,7 +7,7 @@ include('./_header.php');
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="wow fadeIn cursive text-primary">Contactez-nous :</h2>
+                    <h2 class="wow fadeIn cursive text-primary">Contactez-nous</h2>
                     <hr class="primary">
                     <p><strong>Pour nous envoyer un mail </strong> : <a href="mailto:bourges.humour.vin@gmail.com">bourges.humour.vin@gmail.com</a></p>
                     <br/><br/>

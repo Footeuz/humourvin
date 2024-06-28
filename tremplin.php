@@ -17,21 +17,21 @@ include('./_header.php');
             <div class="col-lg-10 col-lg-offset-1 text-center mt-5">
                 <h2 class="wow fadeIn cursive text-primary">Palmarès</h2>
                 <hr/>
-
-                <div class="row mt-4">
-                    <div class="col-6">
-                        <img src="./assets/images/tremplin/gagnants/2023-gagnant.jpg" height="250" alt="Gagnant 2023 Simon Noens" />
-                    </div>
-                    <div class="col-6 text-start">
-                        <p class="fw-bold h3">2023</p>
-                        <p>Prix du Jury & public : <a href="https://www.instagram.com/simonnoens" target="_blank">Simon Noens</a></p>
-                        <p>Prix spécial : <a href="https://www.instagram.com/hahamez" target="_blank">Amziane Bouzid</a></p>
-                    </div>
+                <div class="container text-center pt-5">
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <img src="./assets/images/tremplin/gagnants/2023-gagnant.jpg" onclick="openModal();currentSlide(1)" height="250" alt="Gagnant 2023 Simon Noens" />
+                        </div>
+                        <div class="col-6 text-start">
+                            <p class="fw-bold h3">2023</p>
+                            <p>Prix du Jury & public : <a href="https://www.instagram.com/simonnoens" target="_blank">Simon Noens</a></p>
+                            <p>Prix spécial : <a href="https://www.instagram.com/hahamez" target="_blank">Amziane Bouzid</a></p>
+                        </div>
                 </div>
 
                 <div class="row mt-4">
                     <div class="col-6">
-                        <img src="./assets/images/tremplin/gagnants/2022-gagnant.jpg" height="250" alt="Gagnante 2022 Margot Demeurisse" />
+                        <img src="./assets/images/tremplin/gagnants/2022-gagnant.jpg" onclick="openModal();currentSlide(2)" height="250" alt="Gagnante 2022 Margot Demeurisse" />
                     </div>
                     <div class="col-6 text-start">
                         <p class="mt-5 fw-bold h3">2022</p>
@@ -42,7 +42,7 @@ include('./_header.php');
 
                 <div class="row mt-4">
                     <div class="col-6">
-                        <img src="./assets/images/tremplin/gagnants/2021-gagnant.jpg" height="250" alt="Gagnant 2021 Benoît Turjman" />
+                        <img src="./assets/images/tremplin/gagnants/2021-gagnant.jpg" onclick="openModal();currentSlide(3)" height="250" alt="Gagnant 2021 Benoît Turjman" />
                     </div>
                     <div class="col-6 text-start">
                         <p class="mt-5 fw-bold h3">2021</p>
@@ -53,7 +53,7 @@ include('./_header.php');
 
                 <div class="row mt-4">
                     <div class="col-6">
-                        <img src="./assets/images/tremplin/gagnants/2019-gagnant.jpg" height="250" alt="Gagnant 2019 Antoine Lucciardi" />
+                        <img src="./assets/images/tremplin/gagnants/2019-gagnant.jpg" onclick="openModal();currentSlide(4)" height="250" alt="Gagnant 2019 Antoine Lucciardi" />
                     </div>
                     <div class="col-6 text-start">
                         <p class="mt-5 fw-bold h3">2019</p>
@@ -64,7 +64,7 @@ include('./_header.php');
 
                 <div class="row mt-4">
                     <div class="col-6">
-                        <img src="./assets/images/tremplin/gagnants/2018-gagnant.jpg" height="250" alt="Gagnant 2018 Olivier Stephan" />
+                        <img src="./assets/images/tremplin/gagnants/2018-gagnant.jpg" onclick="openModal();currentSlide(5)" height="250" alt="Gagnant 2018 Olivier Stephan" />
                     </div>
                     <div class="col-6 text-start">
                         <p class="mt-5 fw-bold h3">2018</p>
@@ -75,12 +75,45 @@ include('./_header.php');
 
                 <div class="row mt-4">
                     <div class="col-6">
-                        <img src="./assets/images/tremplin/gagnants/2017-gagnant.jpg" height="250" alt="Gagnante 2017 Doully" />
+                        <img src="./assets/images/tremplin/gagnants/2017-gagnant.jpg" onclick="openModal();currentSlide(6)" height="250" alt="Gagnante 2017 Doully" />
                     </div>
                     <div class="col-6 text-start">
                         <p class="mt-5 fw-bold h3">2017</p>
                         <p>Prix du Jury : <a href="https://www.facebook.com/DoullyOfficiel/" target="_blank">Doully</a></p>
                         <p>Prix du Public : <a href="https://www.facebook.com/BodyCloud" target="_blank">Damien Préteux</a></p>
+                    </div>
+                </div>
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 6</div>
+                            <img src="./assets/images/tremplin/gagnants/2023-gagnant.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 6</div>
+                            <img src="./assets/images/tremplin/gagnants/2022-gagnant.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 6</div>
+                            <img src="./assets/images/tremplin/gagnants/2021-gagnant.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 6</div>
+                            <img src="./assets/images/tremplin/gagnants/2019-gagnant.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <div class="numbertext">5 / 6</div>
+                            <img src="./assets/images/tremplin/gagnants/2018-gagnant.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <div class="numbertext">6 / 6</div>
+                            <img src="./assets/images/tremplin/gagnants/2017-gagnant.jpg" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
                     </div>
                 </div>
 
