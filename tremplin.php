@@ -26,9 +26,9 @@ include('./_header.php');
                             <p class="fw-bold h3">2023</p>
                             <p>Prix du Jury & public : <a href="https://www.instagram.com/simonnoens" target="_blank">Simon Noens</a></p>
                             <p>Prix spécial : <a href="https://www.instagram.com/hahamez" target="_blank">Amziane Bouzid</a></p>
+                            <p>Jury présidé par : Maurice Barthélémy</p>
                         </div>
                 </div>
-
                 <div class="row mt-4">
                     <div class="col-6">
                         <img src="./assets/images/tremplin/gagnants/2022-gagnant.jpg" onclick="openModal();currentSlide(2)" height="250" alt="Gagnante 2022 Margot Demeurisse" />
@@ -37,6 +37,7 @@ include('./_header.php');
                         <p class="mt-5 fw-bold h3">2022</p>
                         <p>Prix du Jury : <a href="https://www.tiktok.com/@margot_demeurisse" target="_blank">Margot Demeurisse</a></p>
                         <p>Prix du Public : <a href="http://hugueslavigne.com/" target="_blank">Hugues Lavigne</a></p>
+                        <p>Jury présidé par : Eric et Quentin</p>
                     </div>
                 </div>
 
@@ -48,6 +49,7 @@ include('./_header.php');
                         <p class="mt-5 fw-bold h3">2021</p>
                         <p>Prix du Jury : <a href="https://www.benoitturjman.com" target="_blank">Benoît Turjman</a></p>
                         <p>Prix du Public : Benoît Turjman</p>
+                        <p>Jury présidé par : Bruno Sanches</p>
                     </div>
                 </div>
 
@@ -59,6 +61,7 @@ include('./_header.php');
                         <p class="mt-5 fw-bold h3">2019</p>
                         <p>Prix du Jury : <a href="https://antoinelucciardi.com" target="_blank">Antoine Lucciardi</a></p>
                         <p>Prix du Public : Monsieur S</p>
+                        <p>Jury présidé par : François Rollin et Caroline Diamant</p>
                     </div>
                 </div>
 
@@ -70,6 +73,7 @@ include('./_header.php');
                         <p class="mt-5 fw-bold h3">2018</p>
                         <p>Prix du Jury : <a href="https://www.facebook.com/olivier.stephan.sur.scene/" target="_blank">Olivier Stephan</a></p>
                         <p>Prix du Public : Cyrille Huguet</p>
+                        <p>Jury présidé par : Pierre-Emmanuel Barré et Giédré</p>
                     </div>
                 </div>
 
@@ -81,6 +85,7 @@ include('./_header.php');
                         <p class="mt-5 fw-bold h3">2017</p>
                         <p>Prix du Jury : <a href="https://www.facebook.com/DoullyOfficiel/" target="_blank">Doully</a></p>
                         <p>Prix du Public : <a href="https://www.facebook.com/BodyCloud" target="_blank">Damien Préteux</a></p>
+                        <p>Jury présidé par : Daniel Morin et Gérald Dahan</p>
                     </div>
                 </div>
                 <div id="myModal" class="modal">

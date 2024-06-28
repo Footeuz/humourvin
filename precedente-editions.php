@@ -28,9 +28,6 @@
                     </div>
                 </a>
                 <h2>2023</h2>
-                <h3>Tremplin humour</h3>
-                <p>Prix du Jury & public : <a href="https://www.instagram.com/simonnoens" target="_blank">Simon Noens</a></p>
-                <p>Prix spécial : <a href="https://www.instagram.com/hahamez" target="_blank">Amziane Bouzid</a></p>
             </div>
 
             <div class="col-lg-4 col-sm-4 text-center">
@@ -45,9 +42,6 @@
                     </div>
                 </a>
                 <h2>2022</h2>
-                <h3>Tremplin humour</h3>
-                <p>Prix du Jury : <a href="https://www.tiktok.com/@margot_demeurisse" target="_blank">Margot Demeurisse</a></p>
-                <p>Prix du Public : <a href="http://hugueslavigne.com/" target="_blank">Hugues Lavigne</a></p>
             </div>
             <div class="col-lg-4 col-sm-4 text-center">
                 <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/Affiche-BourgesHumourVin-2021.jpg">
@@ -61,9 +55,6 @@
                     </div>
                 </a>
                 <h2>2021</h2>
-                <h3>Tremplin humour</h3>
-                <p>Prix du Jury : <a href="https://www.benoitturjman.com" target="_blank">Benoît Turjman</a></p>
-                <p>Prix du Public : Benoît Turjman</p>
             </div>
             <div class="col-lg-4 col-sm-4 text-center">
                 <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/Affiche-BourgesHumourVin-2020.jpg">
@@ -77,7 +68,7 @@
                     </div>
                 </a>
                 <h2>2020</h2>
-                <h3>Edition annulée à cause du contexte sanitaire</h3>
+                <p>Edition annulée à cause du contexte sanitaire</p>
                 <br/><br/><br/>&nbsp;
             </div>
             <div class="col-lg-4 col-sm-4 text-center">
@@ -92,9 +83,6 @@
                     </div>
                 </a>
                 <h2>2019</h2>
-                <h3>Tremplin humour</h3>
-                <p>Prix du Jury : <a href="https://antoinelucciardi.com" target="_blank">Antoine Lucciardi</a></p>
-                <p>Prix du Public : Monsieur S</p>
             </div>
             <div class="col-lg-4 col-sm-4 text-center">
                 <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/Affiche-BourgesHumourVin-2018.jpg">
@@ -108,9 +96,6 @@
                     </div>
                 </a>
                 <h2>2018</h2>
-                <h3>Tremplin humour</h3>
-                <p>Prix du Jury : <a href="https://www.facebook.com/olivier.stephan.sur.scene/" target="_blank">Olivier Stephan</a></p>
-                <p>Prix du Public : Cyrille Huguet</p>
             </div>
             <div class="col-lg-4 col-sm-4 text-center">
                 <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/Affiche-BourgesHumourVin-2017.jpg">
@@ -124,12 +109,12 @@
                     </div>
                 </a>
                 <h2>2017</h2>
-                <h3>Tremplin humour</h3>
-                <p>Prix du Jury : <a href="https://www.facebook.com/DoullyOfficiel/" target="_blank">Doully</a></p>
-                <p>Prix du Public : <a href="https://www.facebook.com/BodyCloud" target="_blank">Damien Préteux</a></p>
             </div>
         </div>
-        <div class="margin-top-20">
+        <div class="mt-5 text-center">
+            <a href="./tremplin" title="Palmarès tremplin humour"><button class="btn btn-xl btn-primary">Voir le palmarès du tremplin humour</button></a>
+        </div>
+        <div class="container mt-5">
             <h2 class="cursive text-primary text-center margin-top-20 wow fadeIn">Concours d'affiches / Prix Yann Millet </h2>
             <p class="margin-top-20 wow fadeIn">Bravo aux étudiantes et étudiants Bachelor Marketing et Communication de l'ESTACOM de Bourges pour leurs belles participations !</p>
             <p>Félicitations aux magnifiques lauréats, dont le projet a été retenu pour représenter le festival Bourges Humour et Vin.</p>

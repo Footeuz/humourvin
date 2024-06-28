@@ -14,7 +14,7 @@
                                     <img src="./assets/images/artist/Simon-Noens.jpg" class="rounded mx-auto d-block"
                                         height="250" alt="Simon Noens"/>
                                 </div>
-                                <div class="col-8 text-start ps-1 text-dark">
+                                <div class="col-8 text-start ps-1">
                                     <p class="cursive fw-bold h2">Théâtre Jacques Coeur - Simon Noens </p>
                                     <p class="h4">(Prix du Jury & Public 2023)</p>
                                     <p class="h4">Jeudi 05 décembre 2024 - 20h00</p>
