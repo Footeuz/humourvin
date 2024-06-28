@@ -4,65 +4,86 @@
              data-bs-ride="carousel">
             <div class="carousel-inner text-light">
                 <div class="carousel-item active">
-                    <div class="container">
-                        <div class="row align-items-center px-1">
-                            <div class="col-4 text-end">
-                                <img src="./assets/images/artist/Simon-Noens.jpg" class="rounded mx-auto d-block"
-                                     height="250" alt="Simon Noens"/>
+                    <div class="blurred bg-slide position-absolute top-0 start-0 w-100" style="background-image: url('./assets/images/artist/Simon-Noens.jpg')">
+                        &nbsp;
+                    </div>
+                    <div class="position-absolute top-0 start-0 w-100">
+                        <div class="container">
+                            <div class="row align-items-center px-1">
+                                <div class="col-4 text-end">
+                                    <img src="./assets/images/artist/Simon-Noens.jpg" class="rounded mx-auto d-block"
+                                        height="250" alt="Simon Noens"/>
+                                </div>
+                                <div class="col-8 text-start ps-1 text-dark">
+                                    <p class="cursive fw-bold h2">Théâtre Jacques Coeur - Simon Noens </p>
+                                    <p class="h4">(Prix du Jury & Public 2023)</p>
+                                    <p class="h4">Jeudi 05 décembre 2024 - 20h00</p>
+                                </div>
                             </div>
-                            <div class="col-8 text-start ps-1">
-                                <p class="cursive fw-bold h2">Théâtre Jacques Coeur - Simon Noens </p>
-                                <p class="h4">(Prix du Jury & Public 2023)</p>
-                                <p class="h4">Jeudi 05 décembre 2024 - 20h00</p>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="blurred bg-slide position-absolute top-0 start-0 w-100" style="background-image: url('./assets/images/artist/Arnaud-Demanche.jpg')">
+                        &nbsp;
+                    </div>
+                    <div class="position-absolute top-0 start-0 w-100">
+                        <div class="container">
+                            <div class="row align-items-center px-1">
+                                <div class="col-4 text-end">
+                                    <img src="./assets/images/artist/Arnaud-Demanche.jpg" class="rounded mx-auto d-block"
+                                        height="250" alt="Arnaud Demanche"/>
+                                </div>
+                                <div class="col-8 text-start ps-1">
+                                    <p class="cursive fw-bold h2">Théâtre Jacques Coeur - Arnaud Demanche</p>
+                                    <p class="h4">&nbsp;</p>
+                                    <p class="h4">Vendredi 06 décembre 2024 - 20h30</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="container">
-                        <div class="row align-items-center px-1">
-                            <div class="col-4 text-end">
-                                <img src="./assets/images/artist/Arnaud-Demanche.jpg" class="rounded mx-auto d-block"
-                                     height="250" alt="Arnaud Demanche"/>
-                            </div>
-                            <div class="col-8 text-start ps-1">
-                                <p class="cursive fw-bold h2">Théâtre Jacques Coeur - Arnaud Demanche</p>
-                                <p class="h4">&nbsp;</p>
-                                <p class="h4">Vendredi 06 décembre 2024 - 20h30</p>
+                    <div class="blurred bg-slide position-absolute top-0 start-0 w-100" style="background-image: url('./assets/images/artist/Julien-Santini.jpg')">
+                        &nbsp;
+                    </div>
+                    <div class="position-absolute top-0 start-0 w-100">
+                        <div class="container">
+                            <div class="row align-items-center px-1">
+                                <div class="col-4 text-end">
+                                    <img src="./assets/images/artist/Julien-Santini.jpg" class="rounded mx-auto d-block"
+                                        height="250" alt="Julien Santini"/>
+                                </div>
+                                <div class="col-8 text-start ps-1">
+                                    <p class="cursive fw-bold h2">Théâtre Jacques Coeur - Julien Santini</p>
+                                    <p class="h4">&nbsp;</p>
+                                    <p class="h4">Samedi 07 décembre 2024 - 20h30</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="container">
-                        <div class="row align-items-center px-1">
-                            <div class="col-4 text-end">
-                                <img src="./assets/images/artist/Julien-Santini.jpg" class="rounded mx-auto d-block"
-                                     height="250" alt="Julien Santini"/>
-                            </div>
-                            <div class="col-8 text-start ps-1">
-                                <p class="cursive fw-bold h2">Théâtre Jacques Coeur - Julien Santini</p>
-                                <p class="h4">&nbsp;</p>
-                                <p class="h4">Samedi 07 décembre 2024 - 20h30</p>
-                            </div>
-                        </div>
+                    <div class="blurred bg-slide position-absolute top-0 start-0 w-100" style="background-image: url('./assets/images/artist/Benjamin-Tranie.jpg')">
+                        &nbsp;
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="container">
-                        <div class="row align-items-center px-1">
-                            <div class="col-4 text-end">
-                                <img src="./assets/images/artist/Benjamin-Tranie.jpg" class="rounded mx-auto d-block"
-                                     height="250" alt="Benjamin Tranié"/>
+                    <div class="position-absolute top-0 start-0 w-100">
+                        <div class="container">
+                            <div class="row align-items-center px-1">
+                                <div class="col-4 text-end">
+                                    <img src="./assets/images/artist/Benjamin-Tranie.jpg" class="rounded mx-auto d-block"
+                                        height="250" alt="Benjamin Tranié"/>
+                                </div>
+                                <div class="col-8 text-start ps-1 text-dark">
+                                    <p class="cursive fw-bold h2"> Théâtre Jacques Coeur - Benjamin Tranié </p>
+                                    <p class="h4">&nbsp;</p>
+                                    <p class="h4">Dimanche 08 décembre 2024 - 19h00</p>
+                                </div>
                             </div>
-                            <div class="col-8 text-start ps-1">
-                                <p class="cursive fw-bold h2"> Théâtre Jacques Coeur - Benjamin Tranié </p>
-                                <p class="h4">&nbsp;</p>
-                                <p class="h4">Dimanche 08 décembre 2024 - 19h00</p>
-                            </div>
-                        </div>
+                        </div> 
                     </div>
-                </div>
+                </div> 
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                     data-bs-slide="prev">

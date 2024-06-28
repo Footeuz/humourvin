@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d89dfbf-c88b-480c-8d78-619b61009255" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectId" id="1u1rIh6V5MqwnmX1nClZ8THBTfE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Mes sites\bhv" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Mes sites\bhv\kkbb" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d89dfbf-c88b-480c-8d78-619b61009255" name="Default Changelist" comment="" />
+      <created>1599168798558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599168798558</updated>
+      <workItem from="1599168801836" duration="4581000" />
+      <workItem from="1599253556522" duration="8254000" />
+      <workItem from="1599331656418" duration="3421000" />
+      <workItem from="1599998602002" duration="37000" />
+      <workItem from="1600198989531" duration="4566000" />
+      <workItem from="1601049382376" duration="209000" />
+      <workItem from="1601243206067" duration="2212000" />
+      <workItem from="1601311729471" duration="690000" />
+      <workItem from="1623843859836" duration="3844000" />
+      <workItem from="1624223480379" duration="18000" />
+      <workItem from="1624630160526" duration="961000" />
+      <workItem from="1625438067240" duration="1047000" />
+      <workItem from="1626705887795" duration="3699000" />
+      <workItem from="1626871162983" duration="2000" />
+      <workItem from="1627641720751" duration="79000" />
+      <workItem from="1634490232385" duration="742000" />
+      <workItem from="1634548501890" duration="212000" />
+      <workItem from="1634560258273" duration="1000" />
+      <workItem from="1638382894022" duration="1256000" />
+      <workItem from="1638626412685" duration="2000" />
+      <workItem from="1647199274080" duration="5971000" />
+      <workItem from="1647817089942" duration="18000" />
+      <workItem from="1652460668537" duration="377000" />
+      <workItem from="1663257841187" duration="2325000" />
+      <workItem from="1663864372628" duration="26000" />
+      <workItem from="1664659424476" duration="694000" />
+      <workItem from="1665566205227" duration="3021000" />
+      <workItem from="1671367856025" duration="39000" />
+      <workItem from="1687275862963" duration="4361000" />
+      <workItem from="1688149569097" duration="728000" />
+      <workItem from="1695063830723" duration="3198000" />
+      <workItem from="1695322325483" duration="1026000" />
+      <workItem from="1696444354464" duration="668000" />
+      <workItem from="1696611069790" duration="618000" />
+      <workItem from="1718983549170" duration="1748000" />
+      <workItem from="1719253127997" duration="46752000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initialisation">
+      <created>1719575384667</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719575384667</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initialisation">
+      <created>1719575415721</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719575415721</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialisation" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1719062475220">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/1920.27.1280.672@0.0.1536.816" timestamp="1719062475220" />
+    <state x="93" y="93" width="1350" height="630" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1719256520071">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1536.816/1920.27.1280.672@0.0.1536.816" timestamp="1719256520071" />
+    <state x="653" y="142" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1719575201082">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="653" y="142" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.816/1920.27.1280.672@0.0.1536.816" timestamp="1719575201082" />
+    <state x="478" y="141" width="739" height="534" key="find.popup" timestamp="1719523770180">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="478" y="141" width="739" height="534" key="find.popup/0.0.1536.816/1920.27.1280.672@0.0.1536.816" timestamp="1719523770180" />
+  </component>
+</project>
