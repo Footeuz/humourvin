@@ -5,7 +5,7 @@
     <section class="header-content" id="five">
         <div class="container mb-5">
             <div class="row justify-content-center">
-                <div class="inner margin-top-20">
+                <div class="inner">
                     <h2 class="cursive text-primary text-center wow fadeIn">Nos partenaires</h2>
                     <hr class="primary">
                 </div>

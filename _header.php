@@ -17,7 +17,8 @@
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
   </head>
   <body>
-    <?php include('./menu.php'); ?>
-    <div class="mt-5 pt-4 pb-5 bg-gradient bg-main">
+    <div class="bg-gradient bg-main min-vh-100">
+        <?php include('./menu.php'); ?>
+        <div class="mt-5 pt-4 pb-5">
 
     

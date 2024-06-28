@@ -7,7 +7,7 @@ include('./_header.php');
             <div class="row justify-content-center">
 
                 <div>
-                    <h2 class="cursive text-primary text-center mt-3 wow fadeIn">Les humoristes et le festival</h2>
+                    <h2 class="cursive text-primary text-center wow fadeIn">Les humoristes et le festival</h2>
                     <hr/>
                 </div>
 

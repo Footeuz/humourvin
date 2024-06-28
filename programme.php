@@ -20,7 +20,8 @@ include('./_header.php');
                         <i class="icon-lg ion-ios-bolt-outline"></i>
                     </div>
                     <div class="d-table-cell ps-5 align-middle w-75">
-                        <h3>Théâtre Jacques Coeur - Simon Noens (Prix du Jury 2023)</h3>
+                        <h3>Théâtre Jacques Coeur - <a href="./noens" class="text-decoration-none">Simon Noens</a></h3>
+                        <p>Prix du Jury & Public 2023</p>
                         <p>Jeudi 05 décembre 2024 - 20h00</p>
                     </div>
                     <div class="d-table-cell ps-5 align-middle">
@@ -33,7 +34,7 @@ include('./_header.php');
                         <i class="icon-lg ion-ios-bolt-outline"></i>
                     </div>
                     <div class="d-table-cell ps-5 align-middle w-75">
-                        <h3>Théâtre Jacques Coeur - Arnaud Demanche</h3>
+                        <h3>Théâtre Jacques Coeur - <a href="./demanche" class="text-decoration-none">Arnaud Demanche</a></h3>
                         <p>Vendredi 06 décembre 2024 - 20h30</p>
                     </div>
                     <div class="d-table-cell ps-5 align-middle">
@@ -46,7 +47,7 @@ include('./_header.php');
                         <i class="icon-lg ion-ios-bolt-outline"></i>
                     </div>
                     <div class="d-table-cell ps-5 align-middle w-75">
-                        <h3>Théâtre Jacques Coeur - Julien Santini</h3>
+                        <h3>Théâtre Jacques Coeur - <a href="./santini" class="text-decoration-none">Julien Santini</a></h3>
                         <p>Samedi 07 décembre 2024 - 20h30</p>
                     </div>
                     <div class="d-table-cell ps-5 align-middle">
@@ -70,7 +71,7 @@ include('./_header.php');
                         <i class="icon-lg ion-ios-bolt-outline"></i>
                     </div>
                     <div class="d-table-cell ps-5 align-middle w-75">
-                        <h3>Théâtre Jacques Coeur - Benjamin Tranié</h3>
+                        <h3>Théâtre Jacques Coeur - <a href="./tranie" class="text-decoration-none"> Benjamin Tranié </a> </h3>
                         <p>Dimanche 08 décembre 2024 - 19h00</p>
                     </div>
                     <div class="d-table-cell ps-5 align-middle">
@@ -94,16 +95,13 @@ include('./_header.php');
                    
                 <hr>
                 <h3 class="text-center wow fadeIn"> AUTEURS :</h3>
-                <?php
-                if (!empty($auteurs)) {
-                    foreach ($auteurs as $id =>
-                             $auteur) {
-                        echo '<p class="mb-0">' . $auteur . '</p>';
+                <?php 
+                    if (!empty($auteurs)){
+                        foreach($auteurs as $id => $auteur){
+                            echo '<p class="mb-0">'.  $auteur .'</p>'; 
+                        }
                     }
-                }
-                    ?>
-
-
+                ?>
                 </p>
                 <h2 class=" wow fadeIn text-center text-primary cursive d-block">SALON DES VINS</h2>
                 <ul>
@@ -115,20 +113,12 @@ include('./_header.php');
                         foreach($vignerons as $id => $vigneron){
                             echo '<p class="mb-0">'.  $vigneron .'</p>'; 
                         }
-
                     }
-               
-                    
                     ?>
-
-
                 </p>
 
-
-
                 <!-- <h2 class="text-center text-primary cursive wow fadeIn">PROGRAMME COMPLET</h2>
-                <hr>
-            
+                <hr/>
             <div class="container text-center pt-5">
                 <div class="row justify-content-start">
                         <img style="max-width:50%;" class="text-center" src="./assets/Depliant-RECTO.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">

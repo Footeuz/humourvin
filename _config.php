@@ -11,6 +11,8 @@ $menu[6] = array('link' => 'partenaires', 'text' => 'Partenaires');
 $menu[8] = array('link' => 'devenir-benevole', 'text' => 'Devenir Bénévole');
 $menu[3] = array('link' => 'presse', 'text' => 'Presse');
 $menu[7] = array('link' => 'contact', 'text' => 'Contact');
+$menu[9] = array('link' => 'tremplin', 'text' => 'Tremplin');
+//$menu[10] = array();
 
 $vignerons=array();
 $vignerons[]='A venir !';

@@ -11,4 +11,10 @@ RewriteRule ^precedentes-editions$ precedente-editions.php [NC,L]
 RewriteRule ^programme$ programme.php [NC,L] 
 RewriteRule ^contact$ contact.php [NC,L] 
 RewriteRule ^videos$ video.php [NC,L] 
+RewriteRule ^tremplin$ tremplin.php [NC,L]
+RewriteRule ^noens$ artist-noens.php [NC,L]
+RewriteRule ^demanche$ artist-demanche.php [NC,L]
+RewriteRule ^santini$ artist-santini.php [NC,L]
+RewriteRule ^tranie$ artist-tranie.php [NC,L]
+
 
