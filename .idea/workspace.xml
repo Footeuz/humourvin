@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d89dfbf-c88b-480c-8d78-619b61009255" name="Default Changelist" comment="" />
+    <list default="true" id="5d89dfbf-c88b-480c-8d78-619b61009255" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programme.php" beforeDir="false" afterPath="$PROJECT_DIR$/programme.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +109,7 @@
       <workItem from="1696444354464" duration="668000" />
       <workItem from="1696611069790" duration="618000" />
       <workItem from="1718983549170" duration="1748000" />
-      <workItem from="1719253127997" duration="46752000" />
+      <workItem from="1719253127997" duration="50137000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1719575384667</created>
@@ -122,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719575415721</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update tremplin + affiche noens">
+      <created>1719590086955</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719590086955</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +154,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialisation" />
+    <MESSAGE value="Update tremplin + affiche noens" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update tremplin + affiche noens" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1719062475220">

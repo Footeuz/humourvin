@@ -25,7 +25,7 @@ include('./_header.php');
                         <p>Jeudi 05 décembre 2024 - 20h00</p>
                     </div>
                     <div class="d-table-cell ps-5 align-middle">
-                        <img src="./assets/images/artist/Simon-Noens.jpg" class="d-block w-100" alt="Simon Noens" />
+                        <a href="./noens" class="text-decoration-none"><img src="./assets/images/artist/Simon-Noens.jpg" class="d-block w-100" alt="Simon Noens" /></a>
                     </div>
                 </div>
                 <hr/>
@@ -38,7 +38,7 @@ include('./_header.php');
                         <p>Vendredi 06 décembre 2024 - 20h30</p>
                     </div>
                     <div class="d-table-cell ps-5 align-middle">
-                        <img src="./assets/images/artist/Arnaud-Demanche.jpg" class="d-block w-100" alt="Arnaud Demanche" />
+                        <a href="./demanche" class="text-decoration-none"><img src="./assets/images/artist/Arnaud-Demanche.jpg" class="d-block w-100" alt="Arnaud Demanche" /></a>
                     </div>
                 </div>
                 <hr/>
@@ -51,7 +51,7 @@ include('./_header.php');
                         <p>Samedi 07 décembre 2024 - 20h30</p>
                     </div>
                     <div class="d-table-cell ps-5 align-middle">
-                        <img src="./assets/images/artist/Julien-Santini.jpg" class="d-block w-100" alt="Julien Santini" />
+                        <a href="./santini" class="text-decoration-none"><img src="./assets/images/artist/Julien-Santini.jpg" class="d-block w-100" alt="Julien Santini" /></a>
                     </div>
                 </div>
                 <hr/>
@@ -75,7 +75,7 @@ include('./_header.php');
                         <p>Dimanche 08 décembre 2024 - 19h00</p>
                     </div>
                     <div class="d-table-cell ps-5 align-middle">
-                        <img src="./assets/images/artist/Benjamin-Tranie.jpg" class="d-block w-100" alt="Benjamin Tranié" />
+                        <a href="./tranie" class="text-decoration-none"><img src="./assets/images/artist/Benjamin-Tranie.jpg" class="d-block w-100" alt="Benjamin Tranié" /></a>
                     </div>
                 </div>
                 <hr/>
