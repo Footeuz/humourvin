@@ -20,7 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d89dfbf-c88b-480c-8d78-619b61009255" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.php" beforeDir="false" afterPath="$PROJECT_DIR$/_config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artist-demanche.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artist-noens.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artist-santini.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artist-tranie.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artist.php" beforeDir="false" afterPath="$PROJECT_DIR$/artist.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/programme.php" beforeDir="false" afterPath="$PROJECT_DIR$/programme.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,18 +56,18 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blankassfr/.htaccess" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Mes sites\bhv" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Mes sites\bhv\kkbb" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Mes sites\bhv" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -110,6 +117,9 @@
       <workItem from="1696611069790" duration="618000" />
       <workItem from="1718983549170" duration="1748000" />
       <workItem from="1719253127997" duration="50137000" />
+      <workItem from="1719842753643" duration="2000" />
+      <workItem from="1721308903365" duration="180000" />
+      <workItem from="1721479629639" duration="2459000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1719575384667</created>
@@ -148,6 +158,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -158,10 +169,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update tremplin + affiche noens" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1719062475220">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1721481945247">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/1920.27.1280.672@0.0.1536.816" timestamp="1719062475220" />
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/1920.27.1280.672@0.0.1536.816" timestamp="1721481945247" />
     <state x="93" y="93" width="1350" height="630" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1719256520071">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

@@ -36,6 +36,7 @@ $vignerons[]='Vouvray > Domaine du Mouton Noir';*/
 $partenaire=array();
 $partenaire[] = array('link' => 'https://ville-bourges.fr', 'image' => './assets/partners/logo-villedeBourges.jpg', 'text' => 'Partenaire Ville de Bourges');
 $partenaire[] = array('link' => 'https://www.departement18.fr/', 'image' => './assets/partners/logo-Cher.jpg', 'text' => 'Partenaire Département du Cher');
+$partenaire[] = array('link' => 'https://www.centre-valdeloire.fr/', 'image' => './assets/partners/logo-RegionCVDL.jpg', 'text' => 'Partenaire Région Centre Val de Loire');
 $partenaire[] = array('link' => 'https://www.nouvelles-renaissances.com/', 'image' => './assets/partners/logo-renaissances.jpg', 'text' => 'Partenaire Renaissances');
 $partenaire[] = array('link' => 'https://www.bourgesberrytourisme.com', 'image' => './assets/partners/logo-BourgesBerryTourisme.jpg', 'text' => 'Partenaire Bourges Berry Tourisme');
 $partenaire[] = array('link' => '', 'image' => './assets/partners/logo-Heltis.jpg', 'text' => 'Partenaire Heltis');
@@ -71,3 +72,70 @@ $auteurs[]='Piston magazine';
 $auteurs[]='Marcelle Ratafia';
 $auteurs[]='Sanaga';
 $auteurs[]='Chloé Verlach';*/
+
+
+if (isset($_REQUEST['artist_slug'])) {
+    $artist_slug = $_REQUEST['artist_slug'];
+    switch ($artist_slug) {
+        case 'demanche':
+            $artist['name'] = 'Arnaud Demanche';
+            $artist['picture'] = 'Arnaud-Demanche.jpg';
+            $artist['website'] = 'https://arnauddemanche.fr';
+            $artist['date'] = 'Vendredi 06 décembre 2024 - 20h30';
+            $artist['place'] = 'Théâtre Jacques Coeur';
+            $artist['rs_facebook'] = 'https://www.facebook.com/ArnaudDemanchePage';
+            $artist['rs_instagram'] = 'https://www.instagram.com/arnauddemanche/';
+            $artist['rs_youtube'] = 'https://www.youtube.com/channel/UC8-xeUF3sXerirWvgobhz7g';
+            $artist['rs_x'] = 'https://x.com/ArnaudDemanche';
+            $artist['video'] = 'https://www.youtube.com/embed/bf3_Og-VNOw?si=6HsLcVsJSTZn00tz';
+            break;
+        case 'noens':
+            $artist['name'] = 'Simon Noens';
+            $artist['picture'] = 'Simon-Noens.jpg';
+            $artist['website'] = '';
+            $artist['date'] = 'Prix du Jury & Public du <a href="./tremplin">tremplin</a> 2023</p><p>Jeudi 05 décembre 2024 - 20h00';
+            $artist['place'] = 'Théâtre Jacques Coeur';
+            $artist['rs_facebook'] = 'https://www.facebook.com/simon.noens/?locale=fr_FR';
+            $artist['rs_instagram'] = '';
+            $artist['rs_youtube'] = '';
+            $artist['rs_x'] = '';
+            $artist['video'] = 'https://www.youtube.com/embed/3c_7jDYd21c?si=cCs9PJM6VZ0KJZ6w';
+            break;
+        case 'santini':
+            $artist['name'] = 'Julien Santini';
+            $artist['picture'] = 'Julien-Santini.jpg';
+            $artist['website'] = 'https://santinicomedy.com';
+            $artist['date'] = 'Samedi 07 décembre 2024 - 20h30';
+            $artist['place'] = 'Théâtre Jacques Coeur';
+            $artist['rs_facebook'] = 'https://www.facebook.com/profile.php?id=100006084285483';
+            $artist['rs_instagram'] = 'https://www.instagram.com/julien.santini/';
+            $artist['rs_youtube'] = '';
+            $artist['rs_x'] = '';
+            $artist['video'] = 'https://www.youtube.com/embed/H2KONBv6280?si=6efv8pl8Ea277kRf';
+            break;
+        case 'tranie':
+            $artist['name'] = 'Benjamin Tranie';
+            $artist['picture'] = 'Benjamin-Tranie.jpg';
+            $artist['website'] = '';
+            $artist['date'] = 'Dimanche 08 décembre 2024 - 19h00';
+            $artist['place'] = 'Théâtre Jacques Coeur';
+            $artist['rs_facebook'] = 'https://www.facebook.com/BenjTranie';
+            $artist['rs_instagram'] = '';
+            $artist['rs_youtube'] = 'https://www.youtube.com/channel/UCHuVA3VartthDrmZ7mjPsUA';
+            $artist['rs_x'] = '';
+            $artist['video'] = 'https://www.youtube.com/embed/ztQz1409EUs?si=X7jj-1vktTAw6Rgt';
+            break;
+        default:
+            $artist['name'] = '';
+            $artist['picture'] = '';
+            $artist['website'] = '';
+            $artist['date'] = '';
+            $artist['place'] = '';
+            $artist['rs_facebook'] = '';
+            $artist['rs_instagram'] = '';
+            $artist['rs_youtube'] = '';
+            $artist['rs_x'] = '';
+            $artist['video'] = '';
+            break;
+    }
+}

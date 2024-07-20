@@ -20,12 +20,12 @@ include('./_header.php');
                         <i class="icon-lg ion-ios-bolt-outline"></i>
                     </div>
                     <div class="d-table-cell ps-5 align-middle w-75">
-                        <h3>Théâtre Jacques Coeur - <a href="./noens" class="text-decoration-none">Simon Noens</a></h3>
+                        <h3>Théâtre Jacques Coeur - <a href="./artist-noens" class="text-decoration-none">Simon Noens</a></h3>
                         <p>Prix du Jury & Public 2023</p>
                         <p>Jeudi 05 décembre 2024 - 20h00</p>
                     </div>
                     <div class="d-table-cell ps-5 align-middle">
-                        <a href="./noens" class="text-decoration-none"><img src="./assets/images/artist/Simon-Noens.jpg" class="d-block w-100" alt="Simon Noens" /></a>
+                        <a href="./artist-noens" class="text-decoration-none"><img src="./assets/images/artist/Simon-Noens.jpg" class="d-block w-100" alt="Simon Noens" /></a>
                     </div>
                 </div>
                 <hr/>
@@ -34,11 +34,11 @@ include('./_header.php');
                         <i class="icon-lg ion-ios-bolt-outline"></i>
                     </div>
                     <div class="d-table-cell ps-5 align-middle w-75">
-                        <h3>Théâtre Jacques Coeur - <a href="./demanche" class="text-decoration-none">Arnaud Demanche</a></h3>
+                        <h3>Théâtre Jacques Coeur - <a href="./artist-demanche" class="text-decoration-none">Arnaud Demanche</a></h3>
                         <p>Vendredi 06 décembre 2024 - 20h30</p>
                     </div>
                     <div class="d-table-cell ps-5 align-middle">
-                        <a href="./demanche" class="text-decoration-none"><img src="./assets/images/artist/Arnaud-Demanche.jpg" class="d-block w-100" alt="Arnaud Demanche" /></a>
+                        <a href="./artist-demanche" class="text-decoration-none"><img src="./assets/images/artist/Arnaud-Demanche.jpg" class="d-block w-100" alt="Arnaud Demanche" /></a>
                     </div>
                 </div>
                 <hr/>
@@ -47,11 +47,11 @@ include('./_header.php');
                         <i class="icon-lg ion-ios-bolt-outline"></i>
                     </div>
                     <div class="d-table-cell ps-5 align-middle w-75">
-                        <h3>Théâtre Jacques Coeur - <a href="./santini" class="text-decoration-none">Julien Santini</a></h3>
+                        <h3>Théâtre Jacques Coeur - <a href="./artist-santini" class="text-decoration-none">Julien Santini</a></h3>
                         <p>Samedi 07 décembre 2024 - 20h30</p>
                     </div>
                     <div class="d-table-cell ps-5 align-middle">
-                        <a href="./santini" class="text-decoration-none"><img src="./assets/images/artist/Julien-Santini.jpg" class="d-block w-100" alt="Julien Santini" /></a>
+                        <a href="./artist-santini" class="text-decoration-none"><img src="./assets/images/artist/Julien-Santini.jpg" class="d-block w-100" alt="Julien Santini" /></a>
                     </div>
                 </div>
                 <hr/>
@@ -71,11 +71,11 @@ include('./_header.php');
                         <i class="icon-lg ion-ios-bolt-outline"></i>
                     </div>
                     <div class="d-table-cell ps-5 align-middle w-75">
-                        <h3>Théâtre Jacques Coeur - <a href="./tranie" class="text-decoration-none"> Benjamin Tranié </a> </h3>
+                        <h3>Théâtre Jacques Coeur - <a href="./artist-tranie" class="text-decoration-none"> Benjamin Tranié </a> </h3>
                         <p>Dimanche 08 décembre 2024 - 19h00</p>
                     </div>
                     <div class="d-table-cell ps-5 align-middle">
-                        <a href="./tranie" class="text-decoration-none"><img src="./assets/images/artist/Benjamin-Tranie.jpg" class="d-block w-100" alt="Benjamin Tranié" /></a>
+                        <a href="./artist-tranie" class="text-decoration-none"><img src="./assets/images/artist/Benjamin-Tranie.jpg" class="d-block w-100" alt="Benjamin Tranié" /></a>
                     </div>
                 </div>
                 <hr/>
