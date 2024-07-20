@@ -3,27 +3,14 @@
 $page=4;
 include('./_header.php');
 
-$pictures[1]['path'] = './assets/Affiche-BourgesHumourVin-2023.jpg';
-$pictures[1]['caption'] = 'Affiche festival 2023';
-$pictures[1]['year'] = '2023';
-$pictures[2]['path'] = './assets/Affiche-BourgesHumourVin-2022.jpg';
-$pictures[2]['caption'] = 'Affiche festival 2022';
-$pictures[2]['year'] = '2022';
-$pictures[3]['path'] = './assets/Affiche-BourgesHumourVin-2021.jpg';
-$pictures[3]['caption'] = 'Affiche festival 2021';
-$pictures[3]['year'] = '2021';
-$pictures[4]['path'] = './assets/Affiche-BourgesHumourVin-2020.jpg';
-$pictures[4]['caption'] = 'Affiche festival 2020';
-$pictures[4]['year'] = '2020';
-$pictures[5]['path'] = './assets/Affiche-BourgesHumourVin-2019.jpg';
-$pictures[5]['caption'] = 'Affiche festival 2019';
-$pictures[5]['year'] = '2019';
-$pictures[6]['path'] = './assets/Affiche-BourgesHumourVin-2018.jpg';
-$pictures[6]['caption'] = 'Affiche festival 2018';
-$pictures[6]['year'] = '2018';
-$pictures[7]['path'] = './assets/Affiche-BourgesHumourVin-2017.jpg';
-$pictures[7]['caption'] = 'Affiche festival 2017';
-$pictures[7]['year'] = '2017';
+$cpt = 1;
+for ($year = date('Y')-1; $year >= 2017; $year--) {
+    $pictures[$cpt]['path'] = './assets/Affiche-BourgesHumourVin-'.$year.'.jpg';
+    $pictures[$cpt]['caption'] = 'Affiche festival '.$year;
+    $pictures[$cpt]['year'] = $year;
+
+    $cpt++;
+}
 ?>
 
 <section id="four" class="header-content">
