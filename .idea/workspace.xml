@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5d89dfbf-c88b-480c-8d78-619b61009255" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benevole.php" beforeDir="false" afterPath="$PROJECT_DIR$/benevole.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/precedente-editions.php" beforeDir="false" afterPath="$PROJECT_DIR$/precedente-editions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tremplin.php" beforeDir="false" afterPath="$PROJECT_DIR$/tremplin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +113,7 @@
       <workItem from="1719842753643" duration="2000" />
       <workItem from="1721308903365" duration="180000" />
       <workItem from="1721479629639" duration="3212000" />
-      <workItem from="1721482887448" duration="3324000" />
+      <workItem from="1721482887448" duration="4754000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1719575384667</created>
@@ -145,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721482308338</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Zoom system">
+      <created>1721486338951</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721486338951</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +175,8 @@
     <MESSAGE value="Initialisation" />
     <MESSAGE value="Update tremplin + affiche noens" />
     <MESSAGE value="Page artist dynamic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Page artist dynamic" />
+    <MESSAGE value="Zoom system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zoom system" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1721482239031">
