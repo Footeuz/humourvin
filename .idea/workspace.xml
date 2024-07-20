@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d89dfbf-c88b-480c-8d78-619b61009255" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.php" beforeDir="false" afterPath="$PROJECT_DIR$/_config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artist-demanche.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artist-noens.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artist-santini.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artist-tranie.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artist.php" beforeDir="false" afterPath="$PROJECT_DIR$/artist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programme.php" beforeDir="false" afterPath="$PROJECT_DIR$/programme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benevole.php" beforeDir="false" afterPath="$PROJECT_DIR$/benevole.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/precedente-editions.php" beforeDir="false" afterPath="$PROJECT_DIR$/precedente-editions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tremplin.php" beforeDir="false" afterPath="$PROJECT_DIR$/tremplin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +51,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blankassfr/.htaccess" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -119,7 +114,8 @@
       <workItem from="1719253127997" duration="50137000" />
       <workItem from="1719842753643" duration="2000" />
       <workItem from="1721308903365" duration="180000" />
-      <workItem from="1721479629639" duration="2459000" />
+      <workItem from="1721479629639" duration="3212000" />
+      <workItem from="1721482887448" duration="3324000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1719575384667</created>
@@ -142,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719590086955</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Page artist dynamic">
+      <created>1721482308338</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721482308338</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,13 +169,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialisation" />
     <MESSAGE value="Update tremplin + affiche noens" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update tremplin + affiche noens" />
+    <MESSAGE value="Page artist dynamic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page artist dynamic" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1721481945247">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1721482239031">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/1920.27.1280.672@0.0.1536.816" timestamp="1721481945247" />
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/1920.27.1280.672@0.0.1536.816" timestamp="1721482239031" />
     <state x="93" y="93" width="1350" height="630" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1719256520071">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -181,9 +185,9 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="653" y="142" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.816/1920.27.1280.672@0.0.1536.816" timestamp="1719575201082" />
-    <state x="478" y="141" width="739" height="534" key="find.popup" timestamp="1719523770180">
+    <state x="478" y="141" width="739" height="534" key="find.popup" timestamp="1721483021190">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="478" y="141" width="739" height="534" key="find.popup/0.0.1536.816/1920.27.1280.672@0.0.1536.816" timestamp="1719523770180" />
+    <state x="478" y="141" width="739" height="534" key="find.popup/0.0.1536.816/1920.27.1280.672@0.0.1536.816" timestamp="1721483021190" />
   </component>
 </project>

@@ -20,7 +20,16 @@ include('./_header.php');
                 <div class="container text-center pt-5">
                     <div class="row mt-4">
                         <div class="col-6">
-                            <img src="./assets/images/tremplin/gagnants/2023-gagnant.jpg" onclick="openModal();currentSlide(1)" height="250" alt="Gagnant 2023 Simon Noens" />
+                            <a class="gallery-box" onclick="openModal();currentSlide(1)">
+                                <img src="./assets/images/tremplin/gagnants/2023-gagnant.jpg" height="250" alt="Gagnant 2023 Simon Noens" />
+                                <div class="gallery-box-caption">
+                                    <div class="gallery-box-content">
+                                        <div>
+                                            <i class="icon-lg ion-ios-search"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                         <div class="col-6 text-start">
                             <p class="fw-bold h3">2023</p>
@@ -31,7 +40,16 @@ include('./_header.php');
                 </div>
                 <div class="row mt-4">
                     <div class="col-6">
-                        <img src="./assets/images/tremplin/gagnants/2022-gagnant.jpg" onclick="openModal();currentSlide(2)" height="250" alt="Gagnante 2022 Margot Demeurisse" />
+                        <a class="gallery-box" onclick="openModal();currentSlide(2)">
+                            <img src="./assets/images/tremplin/gagnants/2022-gagnant.jpg" height="250" alt="Gagnante 2022 Margot Demeurisse" />
+                            <div class="gallery-box-caption">
+                                <div class="gallery-box-content">
+                                    <div>
+                                        <i class="icon-lg ion-ios-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-6 text-start">
                         <p class="mt-5 fw-bold h3">2022</p>
@@ -43,7 +61,16 @@ include('./_header.php');
 
                 <div class="row mt-4">
                     <div class="col-6">
-                        <img src="./assets/images/tremplin/gagnants/2021-gagnant.jpg" onclick="openModal();currentSlide(3)" height="250" alt="Gagnant 2021 Benoît Turjman" />
+                        <a class="gallery-box" onclick="openModal();currentSlide(3)">
+                            <img src="./assets/images/tremplin/gagnants/2021-gagnant.jpg" height="250" alt="Gagnant 2021 Benoît Turjman" />
+                            <div class="gallery-box-caption">
+                                <div class="gallery-box-content">
+                                    <div>
+                                        <i class="icon-lg ion-ios-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-6 text-start">
                         <p class="mt-5 fw-bold h3">2021</p>
@@ -55,7 +82,16 @@ include('./_header.php');
 
                 <div class="row mt-4">
                     <div class="col-6">
-                        <img src="./assets/images/tremplin/gagnants/2019-gagnant.jpg" onclick="openModal();currentSlide(4)" height="250" alt="Gagnant 2019 Antoine Lucciardi" />
+                        <a class="gallery-box" onclick="openModal();currentSlide(4)">
+                            <img src="./assets/images/tremplin/gagnants/2019-gagnant.jpg" height="250" alt="Gagnant 2019 Antoine Lucciardi" />
+                            <div class="gallery-box-caption">
+                                <div class="gallery-box-content">
+                                    <div>
+                                        <i class="icon-lg ion-ios-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-6 text-start">
                         <p class="mt-5 fw-bold h3">2019</p>
@@ -67,7 +103,16 @@ include('./_header.php');
 
                 <div class="row mt-4">
                     <div class="col-6">
-                        <img src="./assets/images/tremplin/gagnants/2018-gagnant.jpg" onclick="openModal();currentSlide(5)" height="250" alt="Gagnant 2018 Olivier Stephan" />
+                        <a class="gallery-box" onclick="openModal();currentSlide(5)">
+                            <img src="./assets/images/tremplin/gagnants/2018-gagnant.jpg" height="250" alt="Gagnant 2018 Olivier Stephan" />
+                            <div class="gallery-box-caption">
+                                <div class="gallery-box-content">
+                                    <div>
+                                        <i class="icon-lg ion-ios-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-6 text-start">
                         <p class="mt-5 fw-bold h3">2018</p>
@@ -79,7 +124,16 @@ include('./_header.php');
 
                 <div class="row mt-4">
                     <div class="col-6">
-                        <img src="./assets/images/tremplin/gagnants/2017-gagnant.jpg" onclick="openModal();currentSlide(6)" height="250" alt="Gagnante 2017 Doully" />
+                        <a class="gallery-box" onclick="openModal();currentSlide(6)">
+                            <img src="./assets/images/tremplin/gagnants/2017-gagnant.jpg" height="250" alt="Gagnante 2017 Doully" />
+                            <div class="gallery-box-caption">
+                                <div class="gallery-box-content">
+                                    <div>
+                                        <i class="icon-lg ion-ios-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-6 text-start">
                         <p class="mt-5 fw-bold h3">2017</p>
@@ -91,32 +145,16 @@ include('./_header.php');
                 <div id="myModal" class="modal">
                     <span class="close cursor" onclick="closeModal()">&times;</span>
                     <div class="modal-content">
-
-                        <div class="mySlides">
-                            <div class="numbertext">1 / 6</div>
-                            <img src="./assets/images/tremplin/gagnants/2023-gagnant.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">2 / 6</div>
-                            <img src="./assets/images/tremplin/gagnants/2022-gagnant.jpg" style="width:100%">
-                        </div>
-                        <div class="mySlides">
-                            <div class="numbertext">3 / 6</div>
-                            <img src="./assets/images/tremplin/gagnants/2021-gagnant.jpg" style="width:100%">
-                        </div>
-                        <div class="mySlides">
-                            <div class="numbertext">4 / 6</div>
-                            <img src="./assets/images/tremplin/gagnants/2019-gagnant.jpg" style="width:100%">
-                        </div>
-                        <div class="mySlides">
-                            <div class="numbertext">5 / 6</div>
-                            <img src="./assets/images/tremplin/gagnants/2018-gagnant.jpg" style="width:100%">
-                        </div>
-                        <div class="mySlides">
-                            <div class="numbertext">6 / 6</div>
-                            <img src="./assets/images/tremplin/gagnants/2017-gagnant.jpg" style="width:100%">
-                        </div>
+                        <?php $cpt = 1; $nb_pictures = date('Y')-2018; ?>
+                        <?php for ($year = date('Y')-1; $year >= 2017; $year--) { ?>
+                            <?php if ($year != 2020) { ?>
+                                <div class="mySlides text-center bg-secondary">
+                                    <div class="numbertext fw-bold text-white"><?= $cpt ?> / <?= $nb_pictures ?><br/><br/><?= $year ?></div>
+                                    <img src="./assets/images/tremplin/gagnants/<?= $year ?>-gagnant.jpg" height="600" class="img-responsive" alt="" />
+                                </div>
+                                <?php $cpt++; ?>
+                            <?php } ?>
+                        <?php } ?>
                         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                         <a class="next" onclick="plusSlides(1)">&#10095;</a>
                     </div>

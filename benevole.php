@@ -1,7 +1,15 @@
 
 <?php 
 $page=8;
-include('./_header.php'); ?>
+include('./_header.php');
+
+$pictures[1]['path'] = './assets/images/equipe-2023.jpg';
+$pictures[2]['path'] = './assets/images/equipe-2022.jpg';
+$pictures[3]['path'] = './assets/images/equipe-2022b.jpg';
+$pictures[1]['caption'] = 'Pierre Thévenoux & la team 2023';
+$pictures[2]['caption'] = 'François-Xavier Demaison et la team 2022';
+$pictures[3]['caption'] = 'Antoine Lucciardi et la team 2022';
+?>
 
 <section class="header-content" id="last">
     <div class="container">
@@ -20,39 +28,41 @@ include('./_header.php'); ?>
     <!-- Trigger the Modal -->
     <div class="container text-center pt-5">
         <div class="row justify-content-start">
-            <div class="col-6">
-                <img class="text-center hover-shadow w-75" src="./assets/images/equipe-2023.jpg" onclick="openModal();currentSlide(1)" alt="Equipe de bénévole 2024" />
-                <p>Pierre Thévenoux & la team 2023</p>
-            </div>
-            <div class="col-6">
-                <img class="text-center hover-shadow w-75" src="./assets/images/equipe-2022.jpg" onclick="openModal();currentSlide(2)" alt="Equipe de bénévole 2023" />
-                <p>François-Xavier Demaison et la team 2022</p>
-            </div>
+            <?php foreach($pictures as $cpt => $picture) { ?>
+                <div class="col-md-4 col-12">
+                    <a class="gallery-box" onclick="openModal();currentSlide(<?= $cpt ?>)">
+                        <img src="<?= $picture['path'] ?>" height="250" alt="<?= $picture['caption'] ?>" />
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <p><?= $picture['caption'] ?></p>
+                </div>
+            <?php } ?>
 
             <!-- The Modal/Lightbox -->
             <div id="myModal" class="modal">
                 <span class="close cursor" onclick="closeModal()">&times;</span>
                 <div class="modal-content">
+                    <?php foreach($pictures as $cpt => $picture) { ?>
+                        <div class="mySlides text-center bg-secondary">
+                            <div class="numbertext fw-bold text-white"><?= $cpt ?> / <?= count($pictures) ?></div>
+                            <img src="<?= $picture['path'] ?>" height="600" class="img-responsive" alt="<?= $picture['caption'] ?>" />
+                        </div>
+                    <?php } ?>
 
-                    <div class="mySlides">
-                        <div class="numbertext">1 / 2</div>
-                        <img src="./assets/images/equipe-2023.jpg" style="width:100%">
-                    </div>
-
-                    <div class="mySlides">
-                        <div class="numbertext">2 / 2</div>
-                        <img src="./assets/images/equipe-2022.jpg" style="width:100%">
-                    </div>
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
                     <!-- Caption text -->
                     <div class="caption-container">
-                        <p id="caption">test</p>
+                        <p id="caption"></p>
                     </div>
-
                 </div>
-
             </div>
         </div>
     </div>
